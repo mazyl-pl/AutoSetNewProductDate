@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="mazyl" sortOrder="999" translate="label">
+			<label>Mazyl</label>
+		</tab>
+		<section id="autosetnewproductdate" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Auto Set New Product Date</label>
+			<tab>mazyl</tab>
+			<resource>Mazyl_AutoSetNewProductDate::config_mazyl_autosetnewproductdate</resource>
+			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>General</label>
+				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>enabled</label>
+					<comment/>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
