@@ -1,6 +1,7 @@
 # Mage2 Module Mazyl AutoSetNewProductDate
+	Simple Module to Auto set news_to_date and news_from_date for Create new Product
 
-    ``mazyl/module-autosetnewproductdate``
+    ``mazyl/autosetnewproductdate``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -35,18 +36,6 @@
  - Flush the cache by running `php bin/magento cache:flush`
 
 
-## Configuration
-
- - enabled (autosetnewproductdate/general/enabled)
-
-
-## Specifications
-
- - Observer
-	- catalog_product_save_before > Mazyl\AutoSetNewProductDate\Observer\Catalog\ProductSaveBefore
-
-
-## Attributes
 
 
 
